@@ -1,0 +1,16 @@
+/* .col {
+    border: 2px solid blue;
+}
+ 
+.row {
+    border: 2px solid red;
+} */
+
+.vertical-align {
+    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 100vh; /* These two lines are counted as one :-)       */
+    background: url("https://t3.ftcdn.net/jpg/01/85/42/54/360_F_185425447_CbQ4IQoRCD9duV0wfEJpIlutfrAbQakT.jpg") no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+  }

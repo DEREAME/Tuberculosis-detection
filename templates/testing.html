@@ -1,0 +1,12 @@
+{% extends 'index.html' %}
+{% block testing %}
+<div class="container col-md-6">
+    <div class="mb-5">
+        <label for="Image" class="form-label">Upload an image</label>
+        <input class="form-control" type="file" id="formFile" onchange="preview()">
+        <button onclick="clearImage()" class="btn btn-primary mt-3">Check result</button>
+    </div>
+    <img id="frame" src="" class="img-fluid" />
+    <img id="result" src=""/>
+</div>
+{% endblock %}
